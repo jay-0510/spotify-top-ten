@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import SpotifyWebApi from "spotify-web-api-node";
 
 const spotifyApi = new SpotifyWebApi({
-  clientId: "bf9501fb3cae4275a88273994a80c9d2",
-  clientSecret: "d87a4e48b56e463083e60d461624c151",
+  clientId: "YOURID_KEY",
+  clientSecret: "YOURSECRET_KEY",
 });
 
 export default function useSpotify() {
