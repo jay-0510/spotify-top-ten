@@ -25,8 +25,8 @@ async function refreshAccessToken(token) {
 export default NextAuth({
   providers: [
     SpotifyProvider({
-      clientId: "bf9501fb3cae4275a88273994a80c9d2",
-      clientSecret: "d87a4e48b56e463083e60d461624c151",
+      clientId: "YOURID_KEY",
+      clientSecret: "YOURCLIENT_KEY",
       authorization: LOGIN_URL,
     }),
   ],
